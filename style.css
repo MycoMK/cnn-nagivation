@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+.cnn-header {
+  background: black;
+  height: 50px;
+  display: flex;
+  padding-left: 200px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+}
+li {
+  padding: 5px;
+  color: white;
+  list-style: none;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.image-logo {
+  width: 50px;
+  background: black;
+}
+img {
+  width: 100%;
+}
+
+.cnn {
+  background-image: red;
+  background: red;
+  width: 100%;
+  height: 35px;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.b {
+  background: red;
+}
+
+.cnn {
+  background-color: rgb(252, 248, 248);
+}
+
+p:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  /* background-color: red; */
+  opacity: 0.7;
+  font-size: 25;
+}
+a {
+  background-color: rgb(251, 252, 251);
+  padding: 5px;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: orange;
+}
+a:visited {
+  color: purple;
+}
+article p:first-of-type {
+  font-weight: bold;
+  padding: 5px;
+}
+article p:last-of-type {
+  color: red;
+}
+article:nth-child(1) {
+  background-color: rgb(252, 248, 248);
+}
+form {
+  margin: 30px;
+  padding: 30px;
+  border: 4px solid;
+  color: red;
+  display: inline-block;
+}
+body {
+  margin: 30px;
+  padding: 30px;
+  border: 5px solid red;
+}
+.box {
+  padding: 20px;
+  margin: 20px;
+  float: left;
+}
+
+.solid {
+  border: 2px red solid;
+}
+.block {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid red;
+}
+.inline {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid red;
+}
+h2 {
+  left: 100px;
+}
